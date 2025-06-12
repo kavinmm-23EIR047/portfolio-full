@@ -50,7 +50,7 @@ const Hero = () => {
 
       {/* CTA Buttons */}
       <div className="mt-6 flex gap-4">
-  <a href="/Kavinresumeintern.pdf" download>
+  <a href="/kavinresumeintern.pdf" download>
     <motion.button
       className="px-6 py-2 bg-blue-500 hover:bg-blue-600 rounded text-lg font-semibold transition-transform"
       whileHover={{ scale: 1.1 }}

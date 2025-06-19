@@ -48,14 +48,16 @@ const Hero = () => {
         I am a passionate creative designer with expertise in Web, App, Graphic Design, and Video Editing.
       </motion.p>
 
-      {/* CTA Buttons */}
-      <div className="mt-6 flex gap-4">
-        <motion.button
-          className="px-6 py-2 bg-blue-500 hover:bg-blue-600 rounded text-lg font-semibold transition-transform"
-          whileHover={{ scale: 1.1 }}
-        >
-          Resume
-        </motion.button>
+   {/* CTA Buttons */}
+<div className="mt-6 flex gap-4">
+  <a href="/kavinresumeintern.pdf" download target="_blank" rel="noopener noreferrer">
+    <motion.button
+      className="px-6 py-2 bg-blue-500 hover:bg-blue-600 rounded text-lg font-semibold transition-transform"
+      whileHover={{ scale: 1.1 }}
+    >
+      Resume
+    </motion.button>
+  </a>
 
         {/* Contact Us Button with Scroll */}
         <motion.button
